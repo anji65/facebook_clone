@@ -1,0 +1,87 @@
+.register {
+    height: 100vh;
+    background-color: rgb(193 190 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card {
+        width: 55%;
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: white;
+        border-radius: 10px;
+        min-height: 400px;
+        overflow: hidden;
+
+        .left {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            background-color: #030e69;
+            // background: url('https: //assets.hongkiat.com/uploads/100-absolutely-beautiful-nature-wallpapers-for-your-desktop/blue-sea-sunset.jpg') center;
+            // background-size: cover;
+            padding: 50px;
+            color: white;
+
+            h1 {
+                font-size: 60px;
+                line-height: 70px;
+            }
+
+            p {}
+
+            span {
+                font-size: 14px;
+            }
+
+            button {
+                width: 50%;
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+                background-color: white;
+                color: rebeccapurple;
+                font-weight: bold;
+
+            }
+        }
+
+        .right {
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+
+            h1 {
+                color: #555;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+
+                input {
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 10px 10px;
+                }
+
+                button {
+                    width: 50%;
+                    padding: 10px;
+                    border: none;
+                    cursor: pointer;
+                    color: white;
+                    background-color: rebeccapurple;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
